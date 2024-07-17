@@ -129,7 +129,7 @@ systemctl status backup-scripts.service
 * You can check the logs of your service using journalctl:
 
 ```
-journalctl -u backup-script.service
+journalctl -fu backup-script.service
 ```
 
 This command will display logs related to your service, allowing you to monitor its activity and troubleshoot any issues.
