@@ -111,11 +111,11 @@ sudo systemctl daemon-reload
 ### Start and Enable the Service:
 
 ```
-sudo systemctl start backup-databases.service
+sudo systemctl start backup-script.service
 ```
 
 ```
-sudo systemctl enable backup-databases.service
+sudo systemctl enable backup-script.service
 ```
 
 ### Check service status
@@ -129,7 +129,7 @@ systemctl status backup-scripts.service
 * You can check the logs of your service using journalctl:
 
 ```
-journalctl -u backup-databases.service
+journalctl -u backup-script.service
 ```
 
 This command will display logs related to your service, allowing you to monitor its activity and troubleshoot any issues.
