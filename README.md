@@ -121,7 +121,7 @@ sudo systemctl enable backup-script.service
 ### Check service status
 
 ```
-systemctl status backup-scripts.service
+systemctl status backup-script.service
 ```
 
 ### View service logs
